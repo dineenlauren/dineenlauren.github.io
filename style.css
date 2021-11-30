@@ -1,0 +1,164 @@
+html,
+body {
+  height: 100% !important;
+  margin: 0 !important;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: #343a40;
+  color: #88898a;
+  font-size: 1rem;
+  padding: 10px;
+  z-index: 1031;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#app {
+  flex: 1 0 auto;
+  background-color: black;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+#nav {
+  padding: 10px;
+}
+
+.title-text {
+  color: white;
+  position: relative;
+  top: 10vh;
+  padding: 1rem;
+}
+.title-text h1 {
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.transition-container {
+  margin-top: 43vh;
+  position: relative;
+}
+
+/* COMPONENT CSS */
+.pg-section {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 15px 31px #ffffff3c;
+  margin-bottom: 40px;
+  max-width: 800px !important;
+}
+
+p {
+  margin: 0 !important;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 1.3px;
+}
+.t-center {
+  text-align: center;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.5s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+.col-group {
+  padding: 10px;
+  border-radius: 5px;
+  color: #706e6e;
+}
+
+/* BACKGROUND-COLORS */
+.bg-pink {
+  background-color: #ca7a69;
+}
+.bg-lpink {
+  background-color: #e8c2b8;
+}
+.pink-border {
+  border: solid 2px #ca7a69;
+}
+.green {
+  background-color: #a4aa84;
+}
+.bg-lgreen {
+  background-color: #d0d3c0;
+}
+.green-border {
+  border: solid 1px #a4aa84;
+}
+.yellow {
+  background-color: #fec666;
+}
+
+.yellow-light {
+  background-color: #fee0ac;
+}
+.yellow-border {
+  border: solid 2px #fec666;
+}
+.purple {
+  background-color: #726a95;
+}
+
+.bg-purple {
+  background-color: #584a94;
+  color: white;
+}
+.purple-border {
+  border: solid 2px #726a95;
+}
+.white-border {
+  border: solid 1px #ffffff;
+  border-radius: 5px;
+}
+
+/* FONT */
+.white-text {
+  color: white;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* .pg-section {
+      background-color: purple;
+    } */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .transition-container {
+    margin-top: 10vh;
+  }
+  /* .pg-section {
+      background-color: orange;
+    } */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* .pg-section {
+      background-color: red;
+    } */
+}
